@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- <div class="container">
+
+<div class="smallcontainer" *ngFor="let serve of userdata">
+
+<div class="box1">
+  <img [src]="serve.image" alt="messi" align="center"><br>
+  <p>{{serve.firstName}} {{serve.lastName}}</p>
+  <div class="content">
+   <a href="https://facebook.com" >  <i class="fa-brands fa-facebook" ></i> </a>
+   <a href="https://twitter.com" style="padding-left: 25px;">   <i class="fa-brands fa-twitter" ></i> </a>
+   <a href="https://google.com" style="padding-left: 25px;">    <i class="fa-brands fa-google" ></i> </a>
+   <a href="https://linkedin.com" style="padding-left: 25px;">  <i class="fa-brands fa-linkedin" ></i> </a>
+  </div>
+</div>
+
+</div>
+
+</div> -->
+
+<!-- <ul *ngFor="let data of httpdata">
+     <li> {{data.name}} </li>
+</ul> -->
+
+<a routerLink="allcard"> <button>Allcards</button> </a><br>
+
+<label >UserId : <input type="number" placeholder="Enter the UserID" name="key" #key> </label> 
+<button (click)="keyVal(key.value)" >Search</button>
+
+  <div class="cards" *ngIf="submitted" >
+    <div class="margin">
+    <p>{{httpdata.name | uppercase}}</p>
+    <p>{{httpdata.email | lowercase}}</p>
+    <p>{{httpdata.website}}</p>
+    <p>{{httpdata.phone}}</p>
+    <div class="content">
+     <a href="https://facebook.com" >  <i class="fa-brands fa-facebook" ></i> </a>
+     <a href="https://twitter.com" style="padding-left: 25px;">   <i class="fa-brands fa-twitter" ></i> </a>
+     <a href="https://google.com" style="padding-left: 25px;">    <i class="fa-brands fa-google" ></i> </a>
+     <a href="https://linkedin.com" style="padding-left: 25px;">  <i class="fa-brands fa-linkedin" ></i> </a>
+    </div>  
+    </div>
+  </div>
+
+
+<!-- 
+  <div class="cards" *ngFor="let serve of httpdata" >
+    <div class="margin">
+    <p>{{serve.name }}</p>
+    <p>{{serve.email }}</p>
+    <p>{{serve.website}}</p>
+    <p>{{serve.phone}}</p>
+    <div class="content">
+     <a href="https://facebook.com" >  <i class="fa-brands fa-facebook" ></i> </a>
+     <a href="https://twitter.com" style="padding-left: 25px;">   <i class="fa-brands fa-twitter" ></i> </a>
+     <a href="https://google.com" style="padding-left: 25px;">    <i class="fa-brands fa-google" ></i> </a>
+     <a href="https://linkedin.com" style="padding-left: 25px;">  <i class="fa-brands fa-linkedin" ></i> </a>
+    </div>  
+    </div>
+  </div> -->
+  <app-allcards></app-allcards>

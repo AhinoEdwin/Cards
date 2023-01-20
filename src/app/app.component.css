@@ -1,0 +1,71 @@
+.container{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(154, 154, 163);
+}
+.smallcontainer{
+    flex: 1;
+    flex-direction: column;
+    width: 200px;
+}
+.box1{
+  
+   /* border: 15px white solid; */
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    flex-direction: column-reverse;
+    
+}
+.box1:hover{
+    background: skyblue;
+     height: 352px;
+    width: 302px;
+}
+
+img{
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.content{
+   margin-top: 5%;
+   text-align: center;
+   background-color: azure;
+}
+.cards{
+        background-color: rgb(215, 213, 228) ;
+        margin-top: 10%;
+        margin-left: 35%;
+        border: 15px white solid;
+        height: 384px ;
+        width: 260px ;
+        text-align: center;
+        border-radius: 8%;
+        background-image: url('https://4.bp.blogspot.com/-E8KEZUWT9Mc/WoiaYsNkIVI/AAAAAAAAB_E/WbPRVIM-ebQsoBbVt_M8Qyh1NA_4p9aBgCLcBGAs/s1600/Batman_the_Animated_Series_logo.jpg');
+
+    
+}
+.cards:hover{
+     background: rgb(205, 219, 233); 
+     box-shadow: 1px 1px rgb(75, 73, 73);
+}
+.content:hover{
+    background-color: antiquewhite;
+    padding: 5%;
+}
+p{
+    color: black;
+    font-size: 100;
+    font-weight: bold;
+    background-color:  rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 250px ;
+    margin-left: 1.8%;
+}
+.margin{
+    margin-top: 100%;
+}
